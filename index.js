@@ -1,6 +1,11 @@
 'use strict';
 
 class RangeValidator {
+    /**
+     *
+     * @param {number} from - start of range
+     * @param {number} to - end of range
+     */
     constructor(from = 0, to = 0) {
         this._from = from;
         this._to = to;
